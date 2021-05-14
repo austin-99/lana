@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: rgb(41, 41, 41)
+}
+
+header img {
+    margin-left: 10px;
+}
+
+header #h3float {
+    position: fixed;
+    margin-left: 150px;
+    margin-top: -70px;
+    font-size: medium;
+}
+
+header {
+    border: 100px;
+    border-color: black;
+}
+
+/* how to add border */
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+    font-size: medium;
+}
+
+nav ul li a:visited {
+    color: rgb(41, 41, 41);
+    border-bottom: none;
+}
+
+nav ul li a:hover {
+    color: red;   
+    cursor: pointer;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin-top: 20px;
+    margin-left: -20px;
+}
