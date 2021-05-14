@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I love you, my best friend</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>I love you | My best friend</title>
+    <link rel="stylesheet" href="css/updatedstyle.css">
+    <link rel="stylesheet" href="CSS/stylemobile.css" media="screen and (max-device-width: 480px)">
 </head>
 <body>
-    <div id="allcontent">
-
-        <div id="topheader">
-            <header>
-                <img src="images/IMG_1975.GIF" width="85" height="79" alt="Winnie the Pooh and Piglet">
-                <h3 id="h3float">Well happy Valentine's Day gorgeous. You'll always be in my heart.<br>
-                    Thank you for protecting me from uni guy. I love you forever Lana.
-                </h1>
-            </header>
-
-            <nav class="tabsbutton">
-                <a class="btn btn-1" href="">Secret Message</a>
-                <a class="btn btn-1" href="">Memories</a>
-                <a class="btn btn-1" href="">More</a>
+    <div id="topheader">
+        <header class="headcontainer">
+            <img id="pooh"
+            src="images/IMG_1975.GIF" width="85" height="79" 
+            alt="Winnie the Pooh and Piglet">
+            
+            <nav id="headerbuttons">
+                <ul class="headerlist child bounce">
+                    <li class="lineup"><a href="">Home</a></li>
+                </ul>
+                <ul class="headerlist child bounce">
+                    <li class="lineup"><a href="#poem">Secrete Message</a> </li>
+                </ul>
+                <ul class="headerlist child bounce">  
+                    <li class="lineup"><a href="#goto2">Moments</a> </li>
+                </ul>      
+                <ul class="headerlist child bounce">
+                    <li class="lineup"><a href="#goto3">More</a></li>
+                </ul>
             </nav>
-        </div>
-        
-        <section>
+        </header>
+    </div>
+
+    <section id="opening">
+        <h3 id="h3float">Well happy Valentine's Day gorgeous. You'll always be in my heart.<br>
+            Thank you for protecting me from uni guy. I love you forever Lana.
+        </h3>
+    </section>
+    
+        <section id="poem">
             <article>
                 <h1>Today is Valentine's Day! But will you solve this secret message 
                     to start off this special day?
@@ -47,13 +60,17 @@
             </article>
         </section>
 
-        <section>
-            <h3>
-                Favourite Moments With You
-            </h3>
-        </section>
+        <section id="goto2">
+            <p>3</p>
+        </section>  
 
-        <section>
+        <section class="container">
+            <section id="moments">
+                <h3>
+                    Favourite Moments With You
+                </h3>
+            </section>
+
             <div class="process-wrapper">
                 <div id="progress-bar-container">
                     <ul>
@@ -134,25 +151,33 @@
                 
                 </script>
         </section>
+
+    <section id="goto3">
+        <p>3</p>
+    </section>    
         
-        <section>
+    
+    <div class="allcontent">
+        <section id="more">
             <h3>
                 Open them in order (left to right)
             </h3>
         </section>
 
-        <nav>
-            <a href="iloveyou.html"><button>I love you</button></a>
-            <a href="iloveyou2.html"><button>I love you</button></a>
-            <a href="iloveyou3.html"><button>I love you</button></a>
+        <nav class="tabsbutton">
+            <a class="btn btn-1" href="iloveyou.html">I love you</a>
+            <a class="btn btn-1" href="iloveyou2.html">I love you</a>
+            <a class="btn btn-1" href="iloveyou3.html">I love you</a>
         </nav>
-
+    </div>
+</body>
         <footer>
             <p>
-                You are my everything
+                You are my dream girl<br>
+                I love you
             </p>
         </footer>
-    </div>
+    
 
-</body>
+
 </html>
