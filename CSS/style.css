@@ -1,0 +1,422 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+#topheader {
+    background-color: white;
+    margin: -10px -10px 0px -10px;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+.headcontainer {
+    padding-bottom: 15px;
+}
+
+#pooh {
+    margin-left: 20px;
+}
+
+#headerbuttons {
+    float: right;
+    font-size: 18px;
+    display: inline-flex;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.lineup a:hover {
+    color: rgb(83, 0, 160);
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.headerlist li a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.headerlist {
+    list-style-type: none;
+    padding: 10px 6px 10px 6px;
+}
+
+#opening {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 200px 200px 400px 200px;
+}
+
+#poem {
+    background-color: white;
+    text-align: center;
+    padding: 60px 10px 150px 10px;
+    margin: 0px 50px 0px 50px;
+    box-shadow: 0 0 25px rgba(175, 105, 255, 0.37);
+    border-radius: 25px;
+}
+
+#poem h1 {
+    color: #8855ff;
+}
+
+#poem p {
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+/* moments timeline*/
+
+#moments {
+    text-align: center;
+    color: #8855ff;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.container {
+    background-color: white;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 0 25px rgba(175, 105, 255, 0.37);
+    border-radius: 25px;
+}
+
+.process-wrapper {
+	margin:auto;
+	max-width:1080px;
+    padding-top: 20px;
+}
+
+#progress-bar-container {
+	position:relative;
+	width:90%;
+	margin:auto;
+	height:100px;
+	margin-top:65px;
+}
+
+#progress-bar-container ul {
+	padding:0;
+	margin:0;
+	padding-top:15px;
+	z-index:9999;
+	position:absolute;
+	width:100%;
+	margin-top:-40px
+}
+
+#progress-bar-container li:before {
+	content:" ";
+	display:block;
+	margin:auto;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	border:solid 2px #aaa;
+	transition:all ease 0.3s;
+     
+}
+
+#progress-bar-container li.active:before, #progress-bar-container li:hover:before {
+	border:solid 2px #fff;
+       	 
+	background: linear-gradient(to right, #9539ff 0%,rgb(255, 255, 255) 100%); 
+}
+
+#progress-bar-container li {
+	list-style:none;
+	float:left;
+	width:20%;
+	text-align:center;
+	color:#aaa;
+	text-transform:uppercase;
+	font-size:11px;
+	cursor:pointer;
+	font-weight:700;
+	transition:all ease 0.2s;
+	vertical-align:bottom;
+	height:60px;
+	position:relative;
+}
+
+#progress-bar-container li .step-inner {
+	position:absolute;
+	width:100%;
+	bottom:0;
+    font-size: 14px;
+}
+
+#progress-bar-container li.active, #progress-bar-container li:hover {
+	color:#444;
+}
+
+#progress-bar-container li:after {
+	content:" ";
+	display:block;
+	width:6px;
+	height:6px;
+	background:#777;
+	margin:auto;
+	border:solid 7px #fff;
+	border-radius:50%;
+	margin-top:40px;
+	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
+	transition:all ease 0.2s;
+     
+}
+
+#progress-bar-container li:hover:after {
+	background:#555;
+}
+
+#progress-bar-container li.active:after {
+	background:blue;
+}
+
+#progress-bar-container #line {
+	width:80%;
+	margin:auto;
+	background: #eee;
+	height:6px;
+	position:absolute;
+	left:10%;
+	top:57px;
+	z-index:1;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+#progress-bar-container #line-progress {
+	content:" ";
+	width:3%;
+	height:100%;
+	background: #207893;	 
+	background: linear-gradient(to right, #8543ff 0%,#277ceb 100%); 
+	position:absolute;
+	z-index:2;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+#progress-content-section {
+	width:90%;
+	margin: auto;
+	background: #f3f3f3;
+	border-radius: 4px;
+}
+
+#progress-content-section .section-content {
+	padding:30px 40px;
+	text-align:center;
+}
+
+#progress-content-section .section-content h2 {
+	font-size:17px;
+	text-transform:uppercase;
+	color:#333;
+	letter-spacing:1px;
+}
+
+#progress-content-section .section-content p {
+	font-size:16px;
+	line-height:1.8em;
+	color:rgb(68, 68, 68);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#progress-content-section .section-content {
+	display:none;
+	animation: FadeInUp 700ms ease 1;
+	animation-fill-mode:forwards;
+	transform:translateY(15px);
+	opacity:0;
+}
+
+#progress-content-section .section-content.active {
+	display:block;
+}
+
+@keyframes FadeInUp {
+	0% {
+		transform:translateY(15px);
+		opacity:0;
+	}
+	
+	100% {
+		transform:translateY(0px);
+		opacity:1;
+	}
+}
+
+/* End of moments timeline*/
+
+#more {
+    color: #8855ff;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* I love you buttons */
+
+.allcontent {
+    margin-top: 100px;
+    background-color: white;
+    padding: 50px 10px 150px 10px;
+    margin: 100px 50px 200px 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(175, 105, 255, 0.37);
+}
+
+.tabsbutton {
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+
+}
+
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+    background-image: linear-gradient(to right, #8855ff 0%, #a78fff 51%, #411fff 100%);
+}
+
+.btn-2 {
+    background-image: linear-gradient(to right, #ff0606 0%, #ff5d5d 51%, #b30000 100%);
+}
+
+/* End of I love you buttons */
+
+footer {
+    background-color: white;
+    padding: 50px;
+    margin: 0px -10px -10px -10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px #888888;
+    line-height: 30px;
+}
+
+/* i love you */
+
+#ily h3{
+    text-align: center;
+    margin-top: 50px;
+    color: #8855ff;
+}
+
+#header1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 35px;
+    margin-top: 100px;
+    background-color: white;
+    margin: 70px 50px 70px 50px;
+    box-shadow: 0 0 25px rgba(175, 105, 255, 0.37);
+    border-radius: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* i love you 2*/
+
+.letter h3 {
+    color:#8855ff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.letter p {
+    text-align: center;
+    line-height: 35px;
+    padding: 0px 20px 0px 20px;
+}
+
+.drawing {
+    text-align: center; 
+}
+
+.drawing img {
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.letterbox {
+    background-color: white;
+    margin: 70px 50px 70px 50px;
+    box-shadow: 0 0 25px rgba(175, 105, 255, 0.37);
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+/* i love you 3*/ 
+
+#mine {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: red;
+    margin-top: 100px;
+} 
+
+#bestfriend {
+    text-align: center;
+}
+
+/* scrolls */
+
+#goto3 {
+    color: rgb(241, 241, 241);
+}
+
+#goto2 {
+    color: rgb(241, 241, 241);
+    margin-top: 100px;
+}
