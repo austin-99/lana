@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 480px) { 
+@media screen and (min-device-width: 480px) { 
 
 #headerbuttons {
     float: right;
