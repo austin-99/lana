@@ -2,10 +2,16 @@
 
 #headerbuttons {
     float: right;
-    font-size: 7px;
-    margin-top: 30px;
+    font-size: 10px;
+    margin-top: 20px;
     margin-right: 10px;
-    padding: 0%;
+}
+
+.headerlist li a {
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: black;
 }
 
 #opening {
@@ -29,12 +35,34 @@
     padding: 0px 20px 20px 20px;
 }
 
+#moments {
+    text-align: center;
+    color: #8855ff;
+    margin-top: 0px;
+    padding: 50px 20px 0px 20px;
+}
+
 #progress-bar-container li .step-inner {
     font-size: 7px;
 }
 
+.allcontent {
+    margin-top: 100px;
+    background-color: white;
+    padding: 20px 10px 50px 10px;
+    margin: 100px 50px 200px 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(175, 105, 255, 0.37);
+}
+
+#more {
+    margin-top: 20px;
+    padding-bottom: 1px;
+}
+
 .tabsbutton {
-    font-size: 6px;
+    font-size: 10px;
+    display: inline-flex;
 }
 
 /* I love you  Page */
@@ -77,6 +105,22 @@
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* I love you 3 */
+
+#mine {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: red;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+#bestfriend img {
+    width: 80%;
 }
 
 }

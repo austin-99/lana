@@ -412,6 +412,14 @@ footer {
     text-align: center;
 }
 
+.tabsbutton2 {
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+
+}
+
 /* scrolls */
 
 #goto3 {
