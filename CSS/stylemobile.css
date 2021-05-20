@@ -4,7 +4,7 @@
     float: right;
     font-size: 8px;
     margin-top: 20px;
-    margin-right: 0px;
+    margin-right: 5px;
 }
 
 .headerlist li a {
@@ -40,6 +40,10 @@
     color: #8855ff;
     margin-top: 0px;
     padding: 50px 20px 0px 20px;
+}
+
+.container {
+    padding-bottom: 80px;
 }
 
 #progress-bar-container li .step-inner {
@@ -96,6 +100,11 @@
     padding: 20px;
     border-radius: 25px;
     width: 60%;
+}
+
+.letter h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .letterbox {
