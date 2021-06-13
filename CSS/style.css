@@ -355,6 +355,26 @@ a.btn-2 {
     background-image: linear-gradient(to right, #ff0606 0%, #ff5d5d 51%, #ff0606 100%);
 }
 
+/* comments and blogs */
+
+#commentsandblogs {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 50px 10px 50px 10px;
+    margin: 100px 100px 200px 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#commentsandblogs p {
+    font-size: 20px;
+}
+
+#commentsandblogs a {
+    text-decoration: none;
+}
+
 /* End of I love you buttons */
 
 footer {
@@ -501,6 +521,11 @@ footer {
     .tabsbutton {
         font-size: 10px;
         display: flex;
+        
+    }
+
+    #commentsandblogs p{
+        padding: 20px;
         
     }
 

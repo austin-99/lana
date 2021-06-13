@@ -1,0 +1,69 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+form {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+#songTextInput {
+    width: 1000px;
+    height: 100px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #00000010;
+    box-shadow: 0 0 5px #00000067;
+}
+
+#addButton {
+    color: white;
+    background-image: linear-gradient(to right, #7d46ff 0%, #6f47ff 51%, rgb(74, 34, 255) 100%);
+    padding: 10px 25px 10px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px rgba(0,0,0,0.075);
+	margin: 20px;
+}
+
+ul#playlist {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul#playlist li {
+	border-bottom: 1px solid #a9a9a9;
+	padding: 10px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#e3e3e3));
+    background-image: -moz-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: -ms-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: -o-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: -webkit-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: linear-gradient(#f9f9f9, #e3e3e3);
+}
+
+ul#playlist li:last-child {
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom: none;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+ul#playlist li:first-child {
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
