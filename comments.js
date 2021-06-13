@@ -12,7 +12,7 @@ function handleButtonClick() {
 	var songName = textInput.value;
 
 	if (songName == "") {
-		alert("Please enter a song");
+		alert("Did you forget what you wanted to say?");
 	}
 	else {
 		var li = document.createElement("li");
