@@ -1,0 +1,116 @@
+@media screen and (max-device-width: 480px) { 
+
+.headerlist li a {
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: black;
+}
+
+#opening {
+    padding: 50px 50px 600px 50px;
+}
+
+#poem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#poem h1 {
+    color: #8855ff;
+    padding: 15px 15px 0px 15px;
+}
+
+#poem p {
+    line-height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 0px 20px 20px 20px;
+}
+
+#moments {
+    text-align: center;
+    color: #8855ff;
+    margin-top: 0px;
+    padding: 50px 20px 0px 20px;
+}
+
+.container2 {
+    padding-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#progress-bar-container li .step-inner {
+    font-size: 7px;
+}
+
+.allcontent {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 50px 10px 150px 10px;
+    margin: 100px 20px 100px 20px;
+}
+
+#commentsandblogs {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 50px 10px 150px 10px;
+    margin: 100px 20px 200px 20px;
+}
+
+#more {
+    margin-top: 20px;
+    padding-bottom: 1px;
+}
+
+nav.tabsbutton {
+    font-size: 10px;
+    display: inline-flex;
+}
+
+a.btn {
+    padding: 10px;
+}
+
+
+/* I love you  Page */
+
+#header1{
+    margin: 70px 20px 70px 20px;
+}
+/* I love you 2 */
+
+.drawing {
+    text-align: center; 
+}
+
+.drawing img {
+    padding: 20px;
+    border-radius: 25px;
+    width: 80%;
+}
+
+.letter h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* I love you 3 */
+
+#mine {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: red;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+#bestfriend img {
+    width: 80%;
+}
+
+}

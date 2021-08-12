@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(../Images/IMG_1493.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+#topheader {
+    background-color: white;
+    margin: 0px;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+.headcontainer {
+    padding-bottom: 15px;
+}
+
+#pooh {
+    margin-left: 20px;
+}
+
+#headerbuttons {
+    float: right;
+    font-size: 16px;
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+.lineup a:hover {
+    color: rgb(83, 0, 160);
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.headerlist li a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.headerlist {
+    list-style-type: none;
+    padding: 10px 6px 10px 6px;
+}
+
+a.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(238, 238, 238, 0.397);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+}
+
+a.btn-2 {
+    background-image: linear-gradient(to right, #ff0606 0%, #ff5d5d 51%, #ff0606 100%);
+}
+
+#mine {
+    text-align: center;
+    font-family: cursive;
+    color: red;
+    text-shadow: 1px 1px 2px #ffffff;
+    margin-top: 100px;
+}
+
+section#mine h1{
+    font-size: 80px;
+}
+
+#dancing {
+    text-align: center;
+}
+
+#bestfriend {
+    text-align: center;
+}
+
+#bestfriend img {
+    padding: 10px;
+    border-radius: 5px;
+    animation-duration: 10s;
+}
+
+#bestfriend img:hover {
+    transform: scale(1.05);
+}
+
+.tabsbutton2 {
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+
+}
+
+footer {
+    font-size: 14px;
+    color: white;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .tabsbutton {
+        font-size: 10px;
+        display: flex;
+        
+    }
+
+    #ily h3 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}

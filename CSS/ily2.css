@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    overflow-x: hidden;
+    background-image:url(../Images/IMG_0763.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+#topheader {
+    background-color: white;
+    margin: -10px -10px 0px -10px;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+.headcontainer {
+    padding-bottom: 15px;
+}
+
+#pooh {
+    margin-left: 20px;
+}
+
+#headerbuttons {
+    float: right;
+    font-size: 16px;
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+.lineup a:hover {
+    color: rgb(83, 0, 160);
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.headerlist li a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.headerlist {
+    list-style-type: none;
+    padding: 10px 6px 10px 6px;
+}
+
+.letter h3 {
+    color:#ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.letter p {
+    text-align: center;
+    line-height: 35px;
+    padding: 0px 20px 0px 20px;
+    color: white;
+}
+
+.drawing {
+    text-align: center; 
+}
+
+.drawing img {
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.letterbox {
+    background-color: rgba(255, 255, 255, 0.137);
+    margin: 70px 200px 70px 200px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.26);
+    /*
+    border-radius: 25px;
+    */
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#lovesongs {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    line-height: 35px;
+}
+
+footer {
+    font-size: 14px;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .letterbox{
+        margin: 70px 50px 70px 50px;
+    }
+}

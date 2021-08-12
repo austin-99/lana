@@ -1,0 +1,128 @@
+body {
+    background-image: url(../Images/363426.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+#topheader {
+    background-color: white;
+    margin: 0px;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+.headcontainer {
+    padding-bottom: 15px;
+}
+
+#pooh {
+    margin-left: 20px;
+}
+
+#headerbuttons {
+    float: right;
+    font-size: 16px;
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+.lineup a:hover {
+    color: rgb(83, 0, 160);
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.headerlist li a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.headerlist {
+    list-style-type: none;
+    padding: 10px 6px 10px 6px;
+}
+
+#ily p{
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+    margin: 0%;
+    font-size: 16px;
+}
+
+#header1{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    line-height: 35px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.212);
+    margin: 70px 300px 70px 300px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.37);
+    /*
+    border-radius: 25px;
+    */
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#header1 p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+footer {
+    font-size: 14px;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width:1090px) {
+    #header1 {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    #header1 {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    #ily p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
