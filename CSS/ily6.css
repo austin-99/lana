@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background: rgb(5,0,93);
+    background: linear-gradient(90deg, rgba(5,0,93,1) 0%, rgba(98,0,150,1) 50%, rgba(128,0,255,1) 100%);
+    color: white;
+}
+
+#happybday{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#bday_note{
+    color: white;
+}
+
+#bday_note h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+#bday_note p{
+    font-size: 16px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#open_when h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#open_when p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+nav.tabsbutton {
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+a.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(238, 238, 238, 0.397);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+}
+
+a.btn-1 {
+    background-image: linear-gradient(to right, #8855ff 0%, #a78fff 51%, #8855ff 100%);
+}
+
+a.btn-2 {
+    background-image: linear-gradient(to right, #ff0606 0%, #ff5d5d 51%, #ff0606 100%);
+}
+
+footer {
+    font-size: 14px;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* open when */
+#organize_open_when{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#organize_open_when p{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 20px;
+}
+
+#o1, #o2, #o3, #o4, #o5, #o6, #o7, #o8, #o9, #o10, #o11, #o12, #o13, #o14, #o15, #o16, #o17, #o18, #o19, #o20{
+    padding-top: 200px;
+    padding-bottom: 400px;
+}
+
+#o2 a{
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    #organize_open_when{
+        text-align: center;
+    }
+
+    #organize_open_when p{
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height: 20px;
+    }
+}
