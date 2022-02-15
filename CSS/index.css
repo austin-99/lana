@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(../Images/papers.co-ne64-star-galaxy-night-sky-mountain-purple-pink-nature-space-35-3840x2160-4k-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+#mine {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #000000;
+    margin-top: 200px;
+}
+
+nav.tabsbutton {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+}
+
+a.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(238, 238, 238, 0.397);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+}
+
+a.btn-1 {
+    background-image: linear-gradient(to right, #8855ff 0%, #a78fff 51%, #8855ff 100%);
+}
+

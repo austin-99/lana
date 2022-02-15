@@ -1,0 +1,309 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(../Images/purplesunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#h3float {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#poem {
+    text-align: center;
+    padding: 60px 10px 100px 10px;
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+#moments {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+#moments h3{
+    font-size: 20px;
+}
+
+.container2 {
+    
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.process-wrapper {
+	margin:auto;
+	max-width:1080px;
+    padding-top: 20px;
+}
+
+#progress-bar-container {
+	position:relative;
+	width:90%;
+	margin:auto;
+	height:100px;
+	margin-top:65px;
+}
+
+#progress-bar-container ul {
+	padding:0;
+	margin:0;
+	padding-top:15px;
+	z-index:9999;
+	position:absolute;
+	width:100%;
+	margin-top:-40px
+}
+
+#progress-bar-container li:before {
+	content:" ";
+	display:block;
+	margin:auto;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	border:solid 2px rgb(255, 255, 255);
+	transition:all ease 0.3s;
+     
+}
+
+#progress-bar-container li.active:before, #progress-bar-container li:hover:before {
+	border:solid 2px #fff;
+       	 
+	background: linear-gradient(to right, #9539ff 0%,rgb(255, 255, 255) 100%); 
+}
+
+#progress-bar-container li {
+	list-style:none;
+	float:left;
+	width:20%;
+	text-align:center;
+	color:#aaa;
+	text-transform:uppercase;
+	font-size:11px;
+	cursor:pointer;
+	font-weight:700;
+	transition:all ease 0.2s;
+	vertical-align:bottom;
+	height:60px;
+	position:relative;
+}
+
+#progress-bar-container li .step-inner {
+	position:absolute;
+	width:100%;
+	bottom:0;
+    font-size: 14px;
+}
+
+#progress-bar-container li.active, #progress-bar-container li:hover {
+	color:rgb(255, 255, 255);
+}
+
+#progress-bar-container li:after {
+	content:" ";
+	display:block;
+	width:6px;
+	height:6px;
+	background:#777;
+	margin:auto;
+	border:solid 7px #fff;
+	border-radius:50%;
+	margin-top:40px;
+	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
+	transition:all ease 0.2s;
+     
+}
+
+#progress-bar-container li:hover:after {
+	background:#555;
+}
+
+#progress-bar-container li.active:after {
+	background:blue;
+}
+
+#progress-bar-container #line {
+	width:80%;
+	margin:auto;
+	background: #eee;
+	height:6px;
+	position:absolute;
+	left:10%;
+	top:50px;
+	z-index:1;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+#progress-bar-container #line-progress {
+	content:" ";
+	width:3%;
+	height:100%;
+	background: #207893;	 
+	background: linear-gradient(to right, #8543ff 0%,#277ceb 100%); 
+	position:absolute;
+	z-index:2;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+#progress-content-section {
+	width:90%;
+	margin: auto;
+
+	border-radius: 4px;
+}
+
+#progress-content-section .section-content {
+	padding:30px 40px;
+	text-align:center;
+}
+
+#progress-content-section .section-content h2 {
+	font-size:17px;
+	text-transform:uppercase;
+	color:#333;
+	letter-spacing:1px;
+}
+
+#progress-content-section .section-content p {
+	font-size:16px;
+	line-height:1.8em;
+	color:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+#progress-content-section .section-content {
+	display:none;
+	animation: FadeInUp 700ms ease 1;
+	animation-fill-mode:forwards;
+	transform:translateY(15px);
+	opacity:0;
+}
+
+#progress-content-section .section-content.active {
+	display:block;
+}
+
+@keyframes FadeInUp {
+	0% {
+		transform:translateY(15px);
+		opacity:0;
+	}
+	
+	100% {
+		transform:translateY(0px);
+		opacity:1;
+	}
+}
+
+#more {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.allcontent {
+    margin-top: 100px;
+    padding: 50px 10px 150px 10px;
+    margin: 100px 100px 50px 100px;
+    /*
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(175, 105, 255, 0.37);
+    */
+}
+
+nav.tabsbutton {
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+
+}
+
+a.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(238, 238, 238, 0.397);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+}
+
+a.btn-1 {
+    background-image: linear-gradient(to right, #8855ff 0%, #a78fff 51%, #8855ff 100%);
+}
+
+footer {
+    font-size: 14px;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:1090px) {
+    #header1 {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    
+    #opening {
+        padding: 100px 100px 100px 100px;
+    }
+
+    #poem h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #poem p {
+        font-size: 16px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #progress-bar-container li .step-inner {
+        font-size: 10px;
+    }
+
+    .tabsbutton {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
