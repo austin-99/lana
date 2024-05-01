@@ -11,17 +11,15 @@ body {
 
 #mine {
     text-align: center;
-    font-family: cursive;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px #00000083;
+    text-shadow: 1px 1px 2px #0000003d;
     margin-top: 200px;
 }
 
 .optionsLabel{
     font-size: 30px;
     font-weight: 400;
-    font-family: cursive;
-    text-shadow: 1px 1px 2px #00000083;
+    text-shadow: 1px 1px 2px #0000003d;
 }
 
 .selectionOptions{
@@ -50,6 +48,7 @@ select{
 input{
     border-radius: 5px;
     border: 0px;
+    padding: 2px;
 }
 
 #submitButton{
