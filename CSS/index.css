@@ -42,9 +42,17 @@ body {
 select{
     padding: 2px;
     border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 0px;
 }
 
 input{
     border-radius: 5px;
     border: 0px;
+}
+
+#submitButton{
+    background-color: white;
+    color: black;
 }
