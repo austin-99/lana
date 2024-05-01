@@ -20,14 +20,71 @@
     <section id="mine">
         <h1>
             The day I met you, <br>
-            is when all my dreams came true.
+            is when all my dreams came true. I love you.
         </h1>
     </section>
 
-    <nav class="tabsbutton">
-        <a class="btn btn-1" href="homepage.html">2021</a>
-        <a class="btn btn-1" href="homepagetwo.html">2022</a>
-    </nav>
-
+    <div class="selectionOptions">
+        <p class="optionsLabel">What would you like to see?</p>
+        <div class="inputOptions">
+            <select name="options" id="options">
+                <option value="" selected disabled hidden>Choose here cutie</option>
+                <optgroup label="Valentine's Day">
+                    <option value="v2021o">2021 Old Version</option>
+                    <option value="v2021">2021</option>
+                    <option value="v2022">2022</option>
+                    <option value="v2023">2023</option>
+                </optgroup>
+                <optgroup label="Birthdays">
+                    <option value="b2021">2021</option>
+                    <option value="b2022">2022</option>
+                    <option value="b2023">2023</option>
+                </optgroup>
+                <optgroup label="Nursing/Graduation">
+                    <option value="gradGift">Graduation</option>
+                </optgroup>
+                <optgroup label="Others">
+                    <option value="treeHouse">Tree House</option>
+                    <option value="songs">Songs</option>
+                </optgroup>
+            </select>
+            <input type="button" value="enter" onclick="submit()">
+        </div>
+    </div>
+    <script>
+        function submit(){
+            let value = document.getElementById("options").value;
+            if (value == "v2021o"){
+                window.open("./mysweetheart/index.html", "_blank");
+            }
+            else if (value == "v2021"){
+                window.open("./homepage.html", "_blank");
+            }
+            else if(value == "v2022"){
+                window.open("./homepagetwo.html", "_blank");
+            }
+            else if(value == "v2023"){
+                window.open("https://clover-cheek-1fa.notion.site/Happy-Valentine-s-Day-Baby-de21ce3fad0e4e5b88e9efb42a419af9", "_blank");
+            }
+            else if(value == "b2021"){
+                window.open("./iloveyou6.html", "_blank");
+            }
+            else if(value == "b2022"){
+                window.open("./23bday/index.html", "_blank");
+            }
+            else if(value == "b2023"){
+                window.open("https://www.canva.com/design/DAFw9I_TEZU/XUAi5qim-iWKHNbNsut1Zw/watch?utm_content=DAFw9I_TEZU&utm_campaign=designshare&utm_medium=link&utm_source=editor", "_blank");
+            }
+            else if(value == "gradGift"){
+                window.open("https://clover-cheek-1fa.notion.site/Congratulations-baby-8a0082b3f40147b2a3cb2d0729330602", "_blank");
+            }
+            else if(value == "treeHouse"){
+                window.open("./treehouse.html", "_blank");
+            }
+            else if(value == "songs"){
+                window.open("https://clover-cheek-1fa.notion.site/Songs-bbc8ee4dfa9e43b5b47a6ec379e85af1?pvs=4", "_blank");
+            }
+        }
+    </script>
 </body>
 </html>
